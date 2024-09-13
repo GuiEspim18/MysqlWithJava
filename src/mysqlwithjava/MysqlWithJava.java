@@ -4,6 +4,8 @@
  */
 package mysqlwithjava;
 
+import mysqlwithjava.Controller.Database;
+
 /**
  *
  * @author guiespim
@@ -14,7 +16,7 @@ public class MysqlWithJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Database.load();
     }
     
 }
